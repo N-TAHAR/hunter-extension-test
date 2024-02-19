@@ -1,0 +1,127 @@
+html, body, p, h1, h2 {
+  margin: 0;
+}
+
+body {
+  width: 380px;
+  height: 334px;
+  padding: 4px;
+  font-family: 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #28323B;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #F7F9FA;
+  border-radius: 4px;
+}
+
+header h1 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #1D262E;
+}
+
+header svg {
+  fill: #FA5320;
+  height: 10px;
+  width: fit-content;
+}
+
+.default-blank-results {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.default-blank-results img {
+  width: auto;
+  height: 45px;
+}
+
+.default-blank-results h2 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #1D262E;
+  margin-top: 12px;
+}
+
+.default-blank-results p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #707880;
+}
+
+.default-blank-results button {
+  background-color: #FA5320;
+  padding: 8px;
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px -4px 0px 0px #D44519 inset;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.results-container {
+  padding: 0 12px;
+  overflow-y: scroll;
+  width: 99%;
+  height: 298px;
+}
+
+.results-container hr {
+  background-color: #DFE3E8;
+}
+
+.results-counter {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #4C555E;
+  padding: 17px 0 17px 8px;
+  border-bottom: 1px solid #DFE3E8;
+}
+.results-counter span {
+  color: #28323B;
+}
+
+.results-container ul {
+  margin: 0;
+  margin-top: 4px;
+  padding: 0;
+}
+
+.results-container li {
+  display: flex;
+  align-items: center;
+  padding: 8px
+}
+
+.results-container li img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.results-container li span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
